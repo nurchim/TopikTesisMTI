@@ -1,0 +1,992 @@
+[
+  {
+    "code": "AI-01-01",
+    "name": "Pembelajaran dari data berlabel dan tanpa label (Supervised and Unsupervised Learning)",
+    "rumpun": "AI",
+    "subrumpun": "AI-01",
+    "description": "Mengelompokkan data atau membuat prediksi dari pola yang ditemukan.",
+    "examples": [
+      "Pengembangan Model Cost-Sensitive Ensemble Learning untuk Klasifikasi Data Tidak Seimbang pada Deteksi Penipuan Transaksi Digital.",
+      "Perbandingan Kinerja HDBSCAN dan K-Means dengan Representasi Fitur Berbasis Autoencoder untuk Segmentasi Pelanggan E-Commerce.",
+      "Optimisasi Model Gradient Boosting melalui Seleksi Fitur dan Bayesian Optimization untuk Prediksi Risiko Keterlambatan Pembayaran."
+    ],
+    "metrics": "Ketepatan klasifikasi, kemampuan mengenali kasus langka, dan kualitas kelompok data. Metrik teknis: F1-macro; PR-AUC; silhouette score; Davies-Bouldin index; MAE/RMSE.",
+    "keywords": [
+      "klasifikasi",
+      "regresi",
+      "clustering",
+      "pengelompokan",
+      "supervised",
+      "unsupervised",
+      "k means",
+      "hdbscan",
+      "random forest",
+      "xgboost",
+      "gradient boosting",
+      "data tidak seimbang",
+      "imbalance",
+      "penipuan",
+      "segmentasi",
+      "prediksi risiko"
+    ],
+    "label": "Pembelajaran dari data berlabel dan tanpa label",
+    "subname": "Machine Learning and Intelligent Modeling"
+  },
+  {
+    "code": "AI-01-02",
+    "name": "Pembelajaran mendalam dan jaringan saraf (Deep Learning and Neural Architectures)",
+    "rumpun": "AI",
+    "subrumpun": "AI-01",
+    "description": "Mempelajari pola yang rumit melalui model komputasi berlapis.",
+    "examples": [
+      "Pengembangan Arsitektur Hybrid CNN-BiLSTM dengan Mekanisme Attention untuk Prediksi Deret Waktu Multivariat.",
+      "Optimisasi Arsitektur Temporal Fusion Transformer untuk Peramalan Permintaan Produk dengan Pola Musiman dan Intermittent Demand.",
+      "Evaluasi Pengaruh Lightweight Attention Mechanism terhadap Akurasi dan Efisiensi Model Deep Learning pada Data Berskala Terbatas."
+    ],
+    "metrics": "Kesalahan prediksi, waktu pengolahan, serta kebutuhan memori. Metrik teknis: MAE; RMSE; MASE; jumlah parameter; waktu inferensi.",
+    "keywords": [
+      "deep learning",
+      "cnn",
+      "lstm",
+      "bilstm",
+      "transformer",
+      "neural network",
+      "jaringan saraf",
+      "attention",
+      "temporal fusion",
+      "arsitektur neural",
+      "pembelajaran mendalam"
+    ],
+    "label": "Pembelajaran mendalam dan jaringan saraf",
+    "subname": "Machine Learning and Intelligent Modeling"
+  },
+  {
+    "code": "AI-01-03",
+    "name": "Penyesuaian model untuk data atau bidang baru (Transfer and Adaptive Learning)",
+    "rumpun": "AI",
+    "subrumpun": "AI-01",
+    "description": "Memanfaatkan model yang sudah dilatih agar tetap berguna pada lingkungan berbeda.",
+    "examples": [
+      "Pengembangan Domain-Adaptive Contrastive Learning untuk Klasifikasi Teks Bahasa Indonesia dengan Data Latih Terbatas.",
+      "Optimisasi Parameter-Efficient Fine-Tuning Menggunakan LoRA untuk Adaptasi Model Transformer pada Dokumen Domain Khusus.",
+      "Perbandingan Prototypical Networks dan Meta-Learning untuk Few-Shot Classification pada Dataset dengan Distribusi Berbeda."
+    ],
+    "metrics": "Ketepatan pada data baru, banyaknya data latih, serta waktu penyesuaian. Metrik teknis: F1-macro; performa lintas domain; efisiensi parameter; stabilitas few-shot.",
+    "keywords": [
+      "transfer learning",
+      "domain adaptation",
+      "adaptasi domain",
+      "contrastive learning",
+      "few shot",
+      "meta learning",
+      "lora",
+      "fine tuning",
+      "adapter",
+      "model pralatih",
+      "perubahan domain"
+    ],
+    "label": "Penyesuaian model untuk data atau bidang baru",
+    "subname": "Machine Learning and Intelligent Modeling"
+  },
+  {
+    "code": "AI-01-04",
+    "name": "Optimasi dan pendukung keputusan (Intelligent Optimization and Decision Models)",
+    "rumpun": "AI",
+    "subrumpun": "AI-01",
+    "description": "Menentukan pilihan terbaik dengan mempertimbangkan beberapa batasan.",
+    "examples": [
+      "Pengembangan Hybrid Particle Swarm Optimization dan Genetic Algorithm untuk Penjadwalan Sumber Daya dengan Kendala Multiobjektif.",
+      "Optimisasi Penjadwalan Produksi Menggunakan Deep Reinforcement Learning dengan Kendala Kapasitas dan Waktu Penyelesaian.",
+      "Pengembangan Model Multiobjective Evolutionary Optimization untuk Menyeimbangkan Biaya, Waktu, dan Konsumsi Energi pada Penjadwalan Komputasi."
+    ],
+    "metrics": "Kualitas pilihan, lama perhitungan, dan pemenuhan batasan. Metrik teknis: Kualitas solusi; convergence rate; hypervolume; waktu komputasi.",
+    "keywords": [
+      "optimisasi",
+      "optimasi",
+      "genetic algorithm",
+      "particle swarm",
+      "pso",
+      "reinforcement learning",
+      "penjadwalan",
+      "multiobjektif",
+      "alokasi",
+      "algoritma evolusioner",
+      "optimasi sumber daya"
+    ],
+    "label": "Optimasi dan pendukung keputusan",
+    "subname": "Machine Learning and Intelligent Modeling"
+  },
+  {
+    "code": "AI-02-01",
+    "name": "Klasifikasi dan pemahaman makna teks (Text Classification and Semantic Analysis)",
+    "rumpun": "AI",
+    "subrumpun": "AI-02",
+    "description": "Mengelompokkan teks menurut isi, topik, atau pendapat yang terkandung di dalamnya.",
+    "examples": [
+      "Pengembangan Model Hybrid IndoBERT dan Contrastive Learning untuk Klasifikasi Sentimen Berbahasa Indonesia pada Data Tidak Seimbang.",
+      "Optimisasi Representasi Semantik Berbasis Sentence Embedding untuk Klasifikasi Topik Berita Multikategori.",
+      "Evaluasi Cross-Domain Generalization pada Model Klasifikasi Teks Bahasa Indonesia Menggunakan Domain-Adaptive Fine-Tuning."
+    ],
+    "metrics": "Ketepatan kategori, keseimbangan hasil antarkelas, dan ketahanan terhadap perubahan topik. Metrik teknis: F1-macro; confusion matrix; robustness lintas domain; calibration.",
+    "keywords": [
+      "sentimen",
+      "analisis sentimen",
+      "klasifikasi teks",
+      "topik berita",
+      "semantik",
+      "sentence embedding",
+      "ulasan",
+      "opini",
+      "klasifikasi dokumen",
+      "teks bahasa indonesia"
+    ],
+    "label": "Klasifikasi dan pemahaman makna teks",
+    "subname": "Natural Language Processing and Language Intelligence"
+  },
+  {
+    "code": "AI-02-02",
+    "name": "Pengambilan informasi dan pengenalan entitas (Information Extraction and Named Entity Recognition)",
+    "rumpun": "AI",
+    "subrumpun": "AI-02",
+    "description": "Menemukan nama orang, organisasi, tempat, atau hubungan penting di dalam teks.",
+    "examples": [
+      "Pengembangan Model Prompt-Augmented Contrastive Learning untuk Few-Shot Named Entity Recognition pada Judul Berita Olahraga Bahasa Indonesia.",
+      "Optimisasi IndoBERT dengan Adapter-Based Fine-Tuning untuk Named Entity Recognition pada Dokumen Domain Khusus.",
+      "Pengembangan Model Joint Entity and Relation Extraction Berbasis Transformer untuk Ekstraksi Informasi Dokumen Ilmiah Berbahasa Indonesia."
+    ],
+    "metrics": "Ketepatan, kelengkapan, dan keseimbangan hasil pengenalan entitas. Metrik teknis: Entity-level precision; recall; F1; relation F1; performa lintas domain.",
+    "keywords": [
+      "ner",
+      "named entity recognition",
+      "pengenalan entitas",
+      "ekstraksi entitas",
+      "information extraction",
+      "ekstraksi informasi",
+      "bio tagging",
+      "relation extraction",
+      "entity linking",
+      "nama orang",
+      "organisasi dalam teks"
+    ],
+    "label": "Pengambilan informasi dan pengenalan entitas",
+    "subname": "Natural Language Processing and Language Intelligence"
+  },
+  {
+    "code": "AI-02-03",
+    "name": "Model bahasa dan pembangkitan teks (Language Models and Generative NLP)",
+    "rumpun": "AI",
+    "subrumpun": "AI-02",
+    "description": "Membangun sistem yang menjawab pertanyaan atau merangkum dokumen.",
+    "examples": [
+      "Optimisasi Retrieval-Augmented Generation Menggunakan Hybrid Retrieval dan Reranking untuk Sistem Tanya Jawab Dokumen Akademik.",
+      "Evaluasi Parameter-Efficient Fine-Tuning pada Small Language Models untuk Pembuatan Ringkasan Dokumen Berbahasa Indonesia.",
+      "Pengembangan Mekanisme Verifikasi Jawaban Berbasis Evidence Grounding untuk Mengurangi Kesalahan Faktual pada Sistem RAG."
+    ],
+    "metrics": "Kesesuaian jawaban dengan dokumen, kelengkapan informasi, serta penilaian pembaca. Metrik teknis: Recall@k; nDCG; faithfulness; factual accuracy; human evaluation.",
+    "keywords": [
+      "rag",
+      "retrieval augmented generation",
+      "llm",
+      "language model",
+      "model bahasa",
+      "chatbot",
+      "tanya jawab dokumen",
+      "peringkasan",
+      "ringkasan teks",
+      "reranking",
+      "grounding",
+      "generative",
+      "halusinasi jawaban"
+    ],
+    "label": "Model bahasa dan pembangkitan teks",
+    "subname": "Natural Language Processing and Language Intelligence"
+  },
+  {
+    "code": "AI-02-04",
+    "name": "Pengolahan bahasa dengan data terbatas (Low-Resource and Cross-Domain NLP)",
+    "rumpun": "AI",
+    "subrumpun": "AI-02",
+    "description": "Mengembangkan metode pemrosesan bahasa saat data contoh sulit diperoleh.",
+    "examples": [
+      "Pengembangan Metode Few-Shot Learning Berbasis Prototypical Networks untuk Pengenalan Entitas pada Teks Informal Bahasa Indonesia.",
+      "Optimisasi Data Augmentation dan Contrastive Learning untuk Named Entity Recognition dengan Jumlah Data Anotasi Terbatas.",
+      "Evaluasi Cross-Lingual Knowledge Transfer antara Model Multilingual dan IndoBERT untuk Klasifikasi Teks pada Domain Rendah Sumber Daya."
+    ],
+    "metrics": "Ketepatan pada berbagai jumlah data dan kemampuan bekerja pada bidang berbeda. Metrik teknis: F1 berdasarkan jumlah sampel; sample efficiency; generalisasi lintas domain.",
+    "keywords": [
+      "low resource",
+      "data terbatas",
+      "sedikit data",
+      "few shot nlp",
+      "lintas bahasa",
+      "cross lingual",
+      "teks informal",
+      "augmentasi data",
+      "domain bahasa",
+      "indobert",
+      "anotasi terbatas"
+    ],
+    "label": "Pengolahan bahasa dengan data terbatas",
+    "subname": "Natural Language Processing and Language Intelligence"
+  },
+  {
+    "code": "AI-03-01",
+    "name": "Pengenalan dan analisis gambar (Computer Vision and Image Understanding)",
+    "rumpun": "AI",
+    "subrumpun": "AI-03",
+    "description": "Mengidentifikasi objek, kondisi, atau bagian penting dalam gambar.",
+    "examples": [
+      "Optimisasi Lightweight YOLO untuk Deteksi Cacat Produk Industri pada Perangkat dengan Sumber Daya Komputasi Terbatas.",
+      "Pengembangan Hybrid CNN-Vision Transformer untuk Klasifikasi Penyakit Daun Tanaman Menggunakan Citra Lapangan.",
+      "Evaluasi Self-Supervised Representation Learning untuk Segmentasi Citra Medis dengan Data Anotasi Terbatas."
+    ],
+    "metrics": "Ketepatan pengenalan, kecepatan pemeriksaan, dan kesalahan penandaan objek. Metrik teknis: mAP; IoU/Dice; F1; latency; FPS; ukuran model.",
+    "keywords": [
+      "computer vision",
+      "citra",
+      "gambar",
+      "deteksi objek",
+      "yolo",
+      "segmentasi citra",
+      "klasifikasi gambar",
+      "image recognition",
+      "vision transformer",
+      "penyakit daun",
+      "cacat produk",
+      "imaging"
+    ],
+    "label": "Pengenalan dan analisis gambar",
+    "subname": "Computer Vision, Data Intelligence and Responsible AI"
+  },
+  {
+    "code": "AI-03-02",
+    "name": "Penggabungan teks, gambar, dan data lain (Multimodal and Generative AI)",
+    "rumpun": "AI",
+    "subrumpun": "AI-03",
+    "description": "Menyatukan informasi dari lebih dari satu bentuk data.",
+    "examples": [
+      "Pengembangan Model Multimodal Fusion antara Citra Produk dan Deskripsi Teks untuk Klasifikasi Kategori Produk E-Commerce.",
+      "Evaluasi Vision-Language Models untuk Visual Question Answering Berbahasa Indonesia pada Dataset Domain Terbatas.",
+      "Pengembangan Augmentasi Citra Sintetis Berbasis Diffusion Models untuk Meningkatkan Generalisasi Klasifikasi pada Data Visual Terbatas."
+    ],
+    "metrics": "Ketepatan hasil gabungan, mutu data tambahan, dan kemampuan pada data baru. Metrik teknis: F1; retrieval recall; VQA accuracy; kualitas data sintetis; generalisasi.",
+    "keywords": [
+      "multimodal",
+      "vision language",
+      "image text",
+      "teks dan gambar",
+      "diffusion",
+      "synthetic image",
+      "model generatif",
+      "visual question answering",
+      "vqa",
+      "fusi modalitas"
+    ],
+    "label": "Penggabungan teks, gambar, dan data lain",
+    "subname": "Computer Vision, Data Intelligence and Responsible AI"
+  },
+  {
+    "code": "AI-03-03",
+    "name": "Analisis data dan peramalan (Advanced Data Analytics and Forecasting)",
+    "rumpun": "AI",
+    "subrumpun": "AI-03",
+    "description": "Membuat perkiraan berdasarkan data masa lalu dan kondisi terkait.",
+    "examples": [
+      "Pengembangan Hybrid XGBoost dan Zero-Inflated Regression untuk Peramalan Penjualan Produk dengan Permintaan Intermiten.",
+      "Optimisasi Peramalan Deret Waktu Menggunakan Ensemble Deep Learning dan Adaptive Residual Error Correction.",
+      "Evaluasi Probabilistic Forecasting Menggunakan Quantile Regression dan Deep Learning untuk Prediksi Permintaan Multiperiodik."
+    ],
+    "metrics": "Besar kesalahan ramalan dan kesesuaian rentang perkiraan. Metrik teknis: MAE; RMSSE/MASE; pinball loss; prediction interval coverage.",
+    "keywords": [
+      "forecasting",
+      "peramalan",
+      "prediksi penjualan",
+      "deret waktu",
+      "time series",
+      "intermittent demand",
+      "permintaan",
+      "penjualan",
+      "regresi zero inflated",
+      "quantile regression",
+      "probabilistic forecasting"
+    ],
+    "label": "Analisis data dan peramalan",
+    "subname": "Computer Vision, Data Intelligence and Responsible AI"
+  },
+  {
+    "code": "AI-03-04",
+    "name": "Keandalan, keterjelasan, dan efisiensi model (Explainable, Trustworthy and Efficient AI)",
+    "rumpun": "AI",
+    "subrumpun": "AI-03",
+    "description": "Memastikan hasil model dapat diuji, dipahami, dan digunakan secara hemat sumber daya.",
+    "examples": [
+      "Evaluasi Explainable Artificial Intelligence Menggunakan SHAP dan Counterfactual Explanations untuk Model Prediksi Risiko Kredit.",
+      "Optimisasi Model Transformer Menggunakan Quantization dan Knowledge Distillation untuk Inferensi pada Perangkat Terbatas.",
+      "Pengembangan Metode Deteksi Out-of-Distribution untuk Meningkatkan Keandalan Sistem Klasifikasi Berbasis Deep Learning."
+    ],
+    "metrics": "Konsistensi penjelasan, ketepatan, kecepatan, dan penggunaan memori. Metrik teknis: Explanation fidelity; robustness; AUROC OOD; latency; konsumsi memori.",
+    "keywords": [
+      "explainable",
+      "xai",
+      "shap",
+      "lime",
+      "transparansi model",
+      "fairness",
+      "keadilan algoritmik",
+      "robustness",
+      "kuantisasi",
+      "quantization",
+      "distillation",
+      "model efisien",
+      "ood",
+      "uncertainty"
+    ],
+    "label": "Keandalan, keterjelasan, dan efisiensi model",
+    "subname": "Computer Vision, Data Intelligence and Responsible AI"
+  },
+  {
+    "code": "IOT-01-01",
+    "name": "Sistem tertanam untuk perangkat terhubung (Embedded IoT Systems)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-01",
+    "description": "Mengembangkan perangkat kecil yang menjalankan tugas pengukuran dan pengendalian.",
+    "examples": [
+      "Pengembangan Sistem Tertanam Berbasis FreeRTOS dengan Adaptive Task Scheduling untuk Meningkatkan Ketepatan Waktu Eksekusi Perangkat IoT.",
+      "Optimisasi Konsumsi Energi Mikrokontroler ESP32 Menggunakan Dynamic Power Management pada Sistem Monitoring Lingkungan.",
+      "Evaluasi Mekanisme Fault Recovery dan Watchdog Adaptif untuk Meningkatkan Keandalan Perangkat Embedded IoT dalam Operasi Jangka Panjang."
+    ],
+    "metrics": "Waktu respons, konsumsi energi, dan frekuensi gangguan. Metrik teknis: Konsumsi energi; deadline miss rate; latency; waktu pemulihan; reliability.",
+    "keywords": [
+      "embedded",
+      "esp32",
+      "arduino",
+      "mikrokontroler",
+      "firmware",
+      "freertos",
+      "watchdog",
+      "rtos",
+      "sistem tertanam",
+      "perangkat tertanam",
+      "low level"
+    ],
+    "label": "Sistem tertanam untuk perangkat terhubung",
+    "subname": "Embedded IoT and Connected Device Engineering"
+  },
+  {
+    "code": "IOT-01-02",
+    "name": "Sensor dan jaringan sensor (Smart Sensors and Sensor Networks)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-01",
+    "description": "Mengumpulkan data kondisi fisik secara akurat dari beberapa sensor.",
+    "examples": [
+      "Pengembangan Adaptive Sampling Berbasis Perubahan Variabilitas Data untuk Mengurangi Konsumsi Energi Wireless Sensor Networks.",
+      "Optimisasi Sensor Fusion Menggunakan Extended Kalman Filter untuk Meningkatkan Akurasi Estimasi Kondisi Lingkungan pada Sistem IoT.",
+      "Pengembangan Metode Deteksi Sensor Drift Berbasis Machine Learning untuk Meningkatkan Kualitas Data Jaringan Sensor Terdistribusi."
+    ],
+    "metrics": "Ketepatan pengukuran, penggunaan energi, dan keberhasilan pengiriman data. Metrik teknis: Akurasi pengukuran; RMSE; energi per sampel; packet delivery ratio.",
+    "keywords": [
+      "sensor",
+      "jaringan sensor",
+      "wireless sensor network",
+      "wsn",
+      "sensor fusion",
+      "kalman",
+      "kalibrasi",
+      "sensor drift",
+      "adaptive sampling",
+      "pengukuran lingkungan"
+    ],
+    "label": "Sensor dan jaringan sensor",
+    "subname": "Embedded IoT and Connected Device Engineering"
+  },
+  {
+    "code": "IOT-01-03",
+    "name": "Komunikasi dan keterhubungan perangkat (IoT Communication and Interoperability)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-01",
+    "description": "Mendukung pertukaran data yang andal di antara perangkat dengan teknologi berbeda.",
+    "examples": [
+      "Evaluasi Kinerja MQTT dan CoAP pada Komunikasi Data IoT dengan Variasi Packet Loss, Latensi, dan Keterbatasan Bandwidth.",
+      "Pengembangan Arsitektur IoT Gateway Berbasis Protocol Translation untuk Interoperabilitas Perangkat Heterogen.",
+      "Optimisasi Quality of Service MQTT untuk Pengiriman Data Sensor Prioritas Tinggi pada Sistem Industrial IoT."
+    ],
+    "metrics": "Keterlambatan, keberhasilan pengiriman, dan jumlah data yang dapat diproses. Metrik teknis: End-to-end latency; throughput; packet loss; delivery success rate.",
+    "keywords": [
+      "mqtt",
+      "coap",
+      "protokol iot",
+      "komunikasi iot",
+      "gateway",
+      "interoperabilitas",
+      "protocol translation",
+      "packet loss",
+      "qos",
+      "transmisi data",
+      "integrasi perangkat"
+    ],
+    "label": "Komunikasi dan keterhubungan perangkat",
+    "subname": "Embedded IoT and Connected Device Engineering"
+  },
+  {
+    "code": "IOT-01-04",
+    "name": "Penghematan energi dan ketepatan waktu (Energy-Efficient and Real-Time IoT)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-01",
+    "description": "Mengurangi kebutuhan energi sambil menjaga kecepatan layanan perangkat.",
+    "examples": [
+      "Optimisasi Adaptive Duty Cycling Berbasis Prediksi Aktivitas Sensor untuk Memperpanjang Lifetime Jaringan IoT.",
+      "Pengembangan Energy-Aware Routing Menggunakan Multiobjective Optimization pada Wireless Sensor Networks.",
+      "Evaluasi Real-Time Scheduling Menggunakan Earliest Deadline First dan Rate Monotonic Scheduling pada Perangkat IoT Berketerbatasan Sumber Daya."
+    ],
+    "metrics": "Pemakaian energi, masa pakai jaringan, dan keterlambatan tugas. Metrik teknis: Network lifetime; energy consumption; deadline miss ratio; jitter.",
+    "keywords": [
+      "hemat energi",
+      "duty cycle",
+      "low power",
+      "energy aware",
+      "real time",
+      "penjadwalan waktu nyata",
+      "jaringan sensor",
+      "network lifetime",
+      "hemat daya"
+    ],
+    "label": "Penghematan energi dan ketepatan waktu",
+    "subname": "Embedded IoT and Connected Device Engineering"
+  },
+  {
+    "code": "IOT-02-01",
+    "name": "Analisis data sensor (IoT Data Analytics)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-02",
+    "description": "Mencari pola dan gangguan dari aliran data pengukuran.",
+    "examples": [
+      "Pengembangan Model Streaming Anomaly Detection untuk Identifikasi Perubahan Kondisi Mesin Industri Berdasarkan Data Sensor Multivariat.",
+      "Optimisasi Pemrosesan Data IoT Berbasis Windowed Stream Analytics untuk Deteksi Kejadian secara Real-Time.",
+      "Pengembangan Metode Data Quality Monitoring untuk Mendeteksi Missing Values, Sensor Drift, dan Outlier pada IoT Data Streams."
+    ],
+    "metrics": "Ketepatan pendeteksian, jeda waktu hasil, dan mutu data. Metrik teknis: Precision-recall; detection delay; processing throughput; data quality score.",
+    "keywords": [
+      "analitik sensor",
+      "stream analytics",
+      "streaming",
+      "arus data iot",
+      "anomali sensor",
+      "outlier",
+      "sensor drift",
+      "event detection",
+      "data sensor",
+      "monitoring real time"
+    ],
+    "label": "Analisis data sensor",
+    "subname": "IoT Data Analytics and Edge Intelligence"
+  },
+  {
+    "code": "IOT-02-02",
+    "name": "Pengolahan cerdas pada perangkat dekat sensor (Edge AI and TinyML)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-02",
+    "description": "Menjalankan pengolahan data langsung pada perangkat agar respons lebih cepat.",
+    "examples": [
+      "Pengembangan Model TinyML Berbasis Quantized Neural Network untuk Deteksi Anomali Perangkat Industri pada Mikrokontroler.",
+      "Evaluasi Knowledge Distillation untuk Mengurangi Ukuran Model Deep Learning pada Sistem Edge-Based Image Classification.",
+      "Optimisasi Adaptive Edge Inference Menggunakan Dynamic Model Selection Berdasarkan Kondisi Beban dan Ketersediaan Energi."
+    ],
+    "metrics": "Ketepatan, waktu pemrosesan, penggunaan memori, dan energi. Metrik teknis: Model accuracy; SRAM/flash usage; energy per inference; latency.",
+    "keywords": [
+      "tinyml",
+      "edge ai",
+      "on device",
+      "perangkat edge",
+      "kuantisasi model",
+      "mikrokontroler inference",
+      "model ringan",
+      "embedded machine learning",
+      "inferensi lokal"
+    ],
+    "label": "Pengolahan cerdas pada perangkat dekat sensor",
+    "subname": "IoT Data Analytics and Edge Intelligence"
+  },
+  {
+    "code": "IOT-02-03",
+    "name": "Pembagian pengolahan antara perangkat dan komputasi awan (Edge-Cloud and Distributed IoT)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-02",
+    "description": "Menentukan lokasi pemrosesan data yang paling sesuai.",
+    "examples": [
+      "Pengembangan Metode Dynamic Task Offloading Berbasis Reinforcement Learning pada Arsitektur Edge-Cloud untuk Aplikasi IoT.",
+      "Optimisasi Penempatan Layanan IoT pada Edge-Cloud Menggunakan Multiobjective Scheduling untuk Menyeimbangkan Latensi dan Konsumsi Energi.",
+      "Evaluasi Arsitektur Distributed Stream Processing untuk Meningkatkan Skalabilitas Analitik Data Sensor secara Real-Time."
+    ],
+    "metrics": "Keterlambatan, biaya, pemakaian sumber daya, dan kemampuan menangani beban. Metrik teknis: Response time; offloading cost; throughput; resource utilization; energy.",
+    "keywords": [
+      "edge cloud",
+      "edge computing",
+      "fog computing",
+      "task offloading",
+      "offloading",
+      "distribusi komputasi",
+      "komputasi terdistribusi",
+      "penempatan layanan",
+      "cloud edge"
+    ],
+    "label": "Pembagian pengolahan antara perangkat dan komputasi awan",
+    "subname": "IoT Data Analytics and Edge Intelligence"
+  },
+  {
+    "code": "IOT-02-04",
+    "name": "Prediksi kondisi perangkat dan kembaran digital (Predictive IoT and Digital Twins)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-02",
+    "description": "Menggunakan data nyata untuk memperkirakan kondisi dan perilaku perangkat.",
+    "examples": [
+      "Pengembangan Digital Twin Berbasis Data Sensor untuk Prediksi Degradasi Kinerja Mesin Produksi.",
+      "Optimisasi Predictive Maintenance Menggunakan Hybrid Autoencoder dan LSTM pada Data Getaran Mesin Industri.",
+      "Evaluasi Sinkronisasi Data Real-Time pada Arsitektur Digital Twin untuk Monitoring Kondisi Peralatan Berbasis IoT."
+    ],
+    "metrics": "Kesalahan prediksi, ketepatan pembaruan, dan waktu peringatan dini. Metrik teknis: Prediction error; detection lead time; synchronization delay; fidelity.",
+    "keywords": [
+      "digital twin",
+      "kembaran digital",
+      "predictive maintenance",
+      "pemeliharaan prediktif",
+      "degradasi mesin",
+      "monitoring aset",
+      "kerusakan mesin",
+      "mesin produksi",
+      "getaran mesin"
+    ],
+    "label": "Prediksi kondisi perangkat dan kembaran digital",
+    "subname": "IoT Data Analytics and Edge Intelligence"
+  },
+  {
+    "code": "IOT-03-01",
+    "name": "Keamanan dan kerahasiaan perangkat terhubung (IoT Security and Privacy)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-03",
+    "description": "Melindungi identitas perangkat, saluran komunikasi, dan data pengukuran.",
+    "examples": [
+      "Pengembangan Federated Learning untuk Deteksi Intrusi pada Jaringan IoT tanpa Pertukaran Data Mentah Antarperangkat.",
+      "Evaluasi Lightweight Cryptography terhadap Overhead Komputasi dan Konsumsi Energi pada Perangkat IoT.",
+      "Pengembangan Model Anomaly-Based Intrusion Detection Menggunakan Graph Neural Networks untuk Jaringan IoT Heterogen."
+    ],
+    "metrics": "Ketepatan deteksi, tingkat kesalahan peringatan, waktu proses, dan penggunaan energi. Metrik teknis: Detection F1; false-positive rate; komunikasi; energi; waktu autentikasi.",
+    "keywords": [
+      "keamanan iot",
+      "iot security",
+      "autentikasi perangkat",
+      "lightweight cryptography",
+      "intrusion detection",
+      "federated learning iot",
+      "privasi iot",
+      "serangan jaringan sensor"
+    ],
+    "label": "Keamanan dan kerahasiaan perangkat terhubung",
+    "subname": "IoT Security and Cyber-Physical Applications"
+  },
+  {
+    "code": "IOT-03-02",
+    "name": "Sistem yang menghubungkan proses fisik dan komputasi (Cyber-Physical Systems)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-03",
+    "description": "Memantau proses fisik melalui perangkat lunak dan data sensor.",
+    "examples": [
+      "Pengembangan Model Hybrid Physics-Informed Machine Learning untuk Deteksi Anomali pada Sistem Cyber-Physical.",
+      "Evaluasi Ketahanan Sistem Monitoring Cyber-Physical terhadap Keterlambatan Komunikasi dan Hilangnya Data Sensor.",
+      "Pengembangan Metode Fault Detection and Isolation Berbasis Sensor Fusion pada Sistem Kendali Industri."
+    ],
+    "metrics": "Kecepatan dan ketepatan pendeteksian serta kestabilan sistem. Metrik teknis: Fault detection rate; false alarms; detection delay; system stability.",
+    "keywords": [
+      "cyber physical",
+      "cps",
+      "sistem siber fisik",
+      "physical system",
+      "fault detection",
+      "fault isolation",
+      "kontrol industri",
+      "anomali fisik",
+      "ketahanan sistem kendali"
+    ],
+    "label": "Sistem yang menghubungkan proses fisik dan komputasi",
+    "subname": "IoT Security and Cyber-Physical Applications"
+  },
+  {
+    "code": "IOT-03-03",
+    "name": "Penerapan perangkat cerdas pada industri dan lingkungan (Intelligent Industrial and Smart Systems)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-03",
+    "description": "Memanfaatkan sensor untuk meningkatkan mutu layanan atau efisiensi operasi.",
+    "examples": [
+      "Pengembangan Arsitektur Industrial IoT untuk Monitoring dan Prediksi Efisiensi Mesin Produksi secara Real-Time.",
+      "Optimisasi Smart Agriculture Irrigation Menggunakan IoT dan Reinforcement Learning Berdasarkan Kelembapan Tanah serta Kondisi Cuaca.",
+      "Pengembangan Sistem Smart Building Berbasis Occupancy Prediction untuk Optimisasi Konsumsi Energi Pendingin Ruangan."
+    ],
+    "metrics": "Penghematan sumber daya, ketepatan keputusan, dan keandalan operasi. Metrik teknis: Operational efficiency; energy savings; prediction error; system reliability.",
+    "keywords": [
+      "industrial iot",
+      "iiot",
+      "smart agriculture",
+      "pertanian cerdas",
+      "irigasi",
+      "smart building",
+      "gedung pintar",
+      "industri 4.0",
+      "pabrik cerdas",
+      "mesin industri",
+      "otomasi industri"
+    ],
+    "label": "Penerapan perangkat cerdas pada industri dan lingkungan",
+    "subname": "IoT Security and Cyber-Physical Applications"
+  },
+  {
+    "code": "IOT-03-04",
+    "name": "Pemantauan dan penghematan energi (Smart Energy and Sustainable IoT)",
+    "rumpun": "IOT",
+    "subrumpun": "IOT-03",
+    "description": "Menggunakan teknologi terhubung untuk mengelola kebutuhan energi.",
+    "examples": [
+      "Pengembangan Sistem Smart Grid Monitoring Menggunakan IoT dan Anomaly Detection untuk Identifikasi Gangguan Konsumsi Energi.",
+      "Optimisasi Demand Response Berbasis Multi-Agent Reinforcement Learning pada Sistem Manajemen Energi Bangunan.",
+      "Pengembangan Model Prediksi Beban Listrik Jangka Pendek Menggunakan Data Smart Meter dan Temporal Deep Learning untuk Optimisasi Manajemen Energi."
+    ],
+    "metrics": "Kesalahan ramalan, penurunan beban puncak, dan penghematan biaya. Metrik teknis: Forecasting MAE/RMSE; peak reduction; energy cost; communication reliability.",
+    "keywords": [
+      "smart grid",
+      "smart meter",
+      "listrik",
+      "energi listrik",
+      "demand response",
+      "manajemen energi",
+      "monitoring listrik",
+      "beban listrik",
+      "kelistrikan",
+      "energi terbarukan"
+    ],
+    "label": "Pemantauan dan penghematan energi",
+    "subname": "IoT Security and Cyber-Physical Applications"
+  },
+  {
+    "code": "EIT-01-01",
+    "name": "Arsitektur teknologi informasi organisasi (Enterprise Architecture)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-01",
+    "description": "Menyelaraskan kebutuhan organisasi dengan susunan sistem dan teknologi.",
+    "examples": [
+      "Pengembangan Model Enterprise Architecture Berbasis TOGAF untuk Meningkatkan Interoperabilitas Sistem Informasi Perguruan Tinggi.",
+      "Evaluasi Kesenjangan Arsitektur Bisnis, Data, Aplikasi, dan Teknologi untuk Penyusunan Roadmap Transformasi Digital Organisasi.",
+      "Pengembangan Metode Prioritisasi Migrasi Enterprise Architecture Menggunakan Multi-Criteria Decision Analysis dan Analisis Ketergantungan Sistem."
+    ],
+    "metrics": "Kesesuaian kebutuhan, kemudahan integrasi, dan kelayakan penerapan. Metrik teknis: Architecture alignment; interoperability; migration cost; expert validation.",
+    "keywords": [
+      "enterprise architecture",
+      "togaf",
+      "arsitektur enterprise",
+      "arsitektur organisasi",
+      "arsitektur bisnis",
+      "arsitektur aplikasi",
+      "roadmap transformasi",
+      "architecture gap",
+      "integrasi institusi"
+    ],
+    "label": "Arsitektur teknologi informasi organisasi",
+    "subname": "Enterprise Architecture and Technology Platforms"
+  },
+  {
+    "code": "EIT-01-02",
+    "name": "Penggabungan sistem dan platform organisasi (Enterprise Platforms and Integration)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-01",
+    "description": "Memastikan berbagai aplikasi dapat bertukar data dan bekerja bersama.",
+    "examples": [
+      "Pengembangan Arsitektur Microservices Berbasis Event-Driven untuk Integrasi Sistem Informasi Akademik dan Keuangan Perguruan Tinggi.",
+      "Evaluasi Kinerja REST API dan GraphQL untuk Integrasi Data pada Platform Enterprise Berskala Menengah.",
+      "Pengembangan Model Interoperabilitas Layanan Enterprise Menggunakan API Gateway dan Event Streaming untuk Sinkronisasi Data Lintas Sistem."
+    ],
+    "metrics": "Kecepatan akses, kesesuaian data, dan kemampuan menangani pengguna. Metrik teknis: Throughput; response time; data consistency; availability; maintainability.",
+    "keywords": [
+      "microservices",
+      "api",
+      "graphql",
+      "rest api",
+      "integrasi aplikasi",
+      "erp",
+      "crm",
+      "event driven",
+      "enterprise platform",
+      "platform organisasi",
+      "interoperabilitas layanan"
+    ],
+    "label": "Penggabungan sistem dan platform organisasi",
+    "subname": "Enterprise Architecture and Technology Platforms"
+  },
+  {
+    "code": "EIT-01-03",
+    "name": "Infrastruktur komputasi awan organisasi (Cloud and Enterprise Infrastructure)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-01",
+    "description": "Mengelola kapasitas server dan layanan digital agar efisien serta andal.",
+    "examples": [
+      "Optimisasi Penempatan Workload pada Hybrid Cloud Menggunakan Multiobjective Optimization untuk Menyeimbangkan Biaya dan Kinerja.",
+      "Evaluasi Autoscaling Berbasis Prediksi Beban pada Infrastruktur Kubernetes untuk Meningkatkan Efisiensi Platform Enterprise.",
+      "Pengembangan Model Pemilihan Arsitektur Multi-Cloud Berbasis Risiko, Biaya, dan Ketersediaan Layanan untuk Sistem Enterprise."
+    ],
+    "metrics": "Biaya operasi, waktu tanggap, ketersediaan, dan penggunaan sumber daya. Metrik teknis: Latency; SLA compliance; cloud cost; resource utilization; recovery time.",
+    "keywords": [
+      "cloud",
+      "hybrid cloud",
+      "multi cloud",
+      "kubernetes",
+      "autoscaling",
+      "cloud native",
+      "workload",
+      "server",
+      "virtualisasi",
+      "infrastruktur enterprise",
+      "cloud cost"
+    ],
+    "label": "Infrastruktur komputasi awan organisasi",
+    "subname": "Enterprise Architecture and Technology Platforms"
+  },
+  {
+    "code": "EIT-01-04",
+    "name": "Pengelolaan arsitektur dan mutu data organisasi (Enterprise Data Architecture and Governance)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-01",
+    "description": "Menjaga agar data dari berbagai unit konsisten, lengkap, dan dapat digunakan.",
+    "examples": [
+      "Pengembangan Arsitektur Data Lakehouse untuk Integrasi Data Akademik, Penelitian, dan Administrasi Perguruan Tinggi.",
+      "Evaluasi Kualitas Data Enterprise Menggunakan Rule-Based Validation dan Automated Data Profiling pada Sistem Terintegrasi.",
+      "Pengembangan Model Data Governance Maturity untuk Meningkatkan Kualitas dan Konsistensi Master Data pada Organisasi Multipel Unit."
+    ],
+    "metrics": "Kelengkapan, kesesuaian, ketepatan data, dan hasil validasi pakar. Metrik teknis: Data completeness; consistency; query performance; data quality; maturity validation.",
+    "keywords": [
+      "data governance",
+      "data lakehouse",
+      "data warehouse",
+      "master data",
+      "data quality",
+      "kualitas data",
+      "tata kelola data",
+      "integrasi data",
+      "arsitektur data",
+      "metadata"
+    ],
+    "label": "Pengelolaan arsitektur dan mutu data organisasi",
+    "subname": "Enterprise Architecture and Technology Platforms"
+  },
+  {
+    "code": "EIT-02-01",
+    "name": "Analisis bisnis dan sistem pendukung keputusan (Business Intelligence and Decision Systems)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-02",
+    "description": "Menggunakan data untuk membantu penentuan kebijakan atau prioritas.",
+    "examples": [
+      "Pengembangan Explainable Decision Support System Berbasis Ensemble Machine Learning untuk Prioritisasi Risiko Operasional Organisasi.",
+      "Optimisasi Sistem Business Intelligence Menggunakan Predictive Analytics untuk Mendukung Perencanaan Anggaran Perguruan Tinggi.",
+      "Pengembangan Model Multi-Criteria Decision Support Berbasis AHP-TOPSIS dengan Analisis Sensitivitas untuk Penentuan Prioritas Investasi Teknologi."
+    ],
+    "metrics": "Konsistensi keputusan, ketepatan prediksi, dan hasil uji pengguna. Metrik teknis: Predictive accuracy; decision consistency; sensitivity analysis; decision quality.",
+    "keywords": [
+      "business intelligence",
+      "bi",
+      "dashboard",
+      "decision support",
+      "sistem pendukung keputusan",
+      "ahp",
+      "topsis",
+      "mcdm",
+      "analitik bisnis",
+      "anggaran",
+      "pengambilan keputusan"
+    ],
+    "label": "Analisis bisnis dan sistem pendukung keputusan",
+    "subname": "Enterprise Intelligence and Digital Innovation"
+  },
+  {
+    "code": "EIT-02-02",
+    "name": "Sistem organisasi dengan kemampuan pengolahan otomatis (Intelligent Enterprise Systems)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-02",
+    "description": "Meningkatkan proses kerja melalui analisis data dan bantuan perangkat lunak.",
+    "examples": [
+      "Pengembangan Intelligent Enterprise Resource Planning Menggunakan Predictive Analytics untuk Optimisasi Perencanaan Persediaan.",
+      "Integrasi Retrieval-Augmented Generation pada Enterprise Knowledge Management untuk Meningkatkan Akurasi Penelusuran Informasi Organisasi.",
+      "Pengembangan Model Intelligent Workflow Automation Menggunakan Klasifikasi Dokumen dan Human-in-the-Loop Validation untuk Proses Administrasi Digital."
+    ],
+    "metrics": "Ketepatan hasil, waktu penyelesaian pekerjaan, dan beban pemeriksaan. Metrik teknis: Process efficiency; accuracy; response quality; human workload; system usability.",
+    "keywords": [
+      "intelligent enterprise",
+      "erp cerdas",
+      "crm cerdas",
+      "knowledge management",
+      "manajemen pengetahuan",
+      "workflow automation",
+      "otomasi administrasi",
+      "rag organisasi",
+      "sistem enterprise"
+    ],
+    "label": "Sistem organisasi dengan kemampuan pengolahan otomatis",
+    "subname": "Enterprise Intelligence and Digital Innovation"
+  },
+  {
+    "code": "EIT-02-03",
+    "name": "Analisis dan perbaikan proses bisnis (Business Process Intelligence)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-02",
+    "description": "Mengidentifikasi tahapan kerja yang lambat, berulang, atau menyimpang.",
+    "examples": [
+      "Pengembangan Model Process Mining untuk Identifikasi Bottleneck dan Penyimpangan Alur Layanan Administrasi Perguruan Tinggi.",
+      "Optimisasi Proses Bisnis Menggunakan Predictive Process Monitoring untuk Mendeteksi Risiko Keterlambatan Penyelesaian Layanan.",
+      "Pengembangan Model Intelligent Process Automation Berbasis Event Log Analytics untuk Meningkatkan Efisiensi Proses Pengadaan Barang."
+    ],
+    "metrics": "Waktu proses, kesesuaian alur, dan ketepatan prediksi keterlambatan. Metrik teknis: Conformance fitness; precision; cycle time; prediction accuracy; efficiency.",
+    "keywords": [
+      "process mining",
+      "proses bisnis",
+      "event log",
+      "bottleneck",
+      "workflow",
+      "alur layanan",
+      "analisis proses",
+      "optimasi proses",
+      "keterlambatan layanan",
+      "pengadaan"
+    ],
+    "label": "Analisis dan perbaikan proses bisnis",
+    "subname": "Enterprise Intelligence and Digital Innovation"
+  },
+  {
+    "code": "EIT-02-04",
+    "name": "Transformasi digital dan pengembangan usaha teknologi (Digital Transformation and Technopreneurship)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-02",
+    "description": "Menilai kesiapan perubahan digital dan manfaat produk teknologi.",
+    "examples": [
+      "Pengembangan Model Digital Transformation Readiness Berbasis Kapabilitas Teknologi, Organisasi, dan Sumber Daya Manusia pada UMKM.",
+      "Evaluasi Kelayakan dan Penerimaan Platform SaaS untuk Digitalisasi Proses Bisnis UMKM Menggunakan Design Science Research.",
+      "Pengembangan Model Validasi Produk Digital Berbasis Technology Acceptance dan Value Proposition untuk Mendukung Keputusan Hilirisasi Inovasi Teknologi."
+    ],
+    "metrics": "Ketepatan alat ukur, penerimaan pengguna, dan kelayakan penerapan. Metrik teknis: Construct validity; model fit; technology adoption; task success; business viability.",
+    "keywords": [
+      "transformasi digital",
+      "umkm",
+      "technopreneurship",
+      "saas",
+      "adopsi teknologi",
+      "produk digital",
+      "validasi produk",
+      "model bisnis",
+      "hilirisasi",
+      "kapabilitas digital",
+      "startup"
+    ],
+    "label": "Transformasi digital dan pengembangan usaha teknologi",
+    "subname": "Enterprise Intelligence and Digital Innovation"
+  },
+  {
+    "code": "EIT-03-01",
+    "name": "Tata kelola dan manajemen layanan teknologi informasi (Enterprise IT Governance)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-03",
+    "description": "Mengatur keputusan, tanggung jawab, dan mutu layanan teknologi organisasi.",
+    "examples": [
+      "Pengembangan Model Tata Kelola TI Berbasis COBIT 2019 untuk Meningkatkan Keselarasan Strategi Teknologi dan Tujuan Organisasi.",
+      "Evaluasi Kapabilitas IT Service Management Berbasis ITIL 4 dan Analisis Data Insiden untuk Optimalisasi Kualitas Layanan TI.",
+      "Pengembangan Model Prioritisasi Perbaikan Tata Kelola TI Menggunakan Multi-Criteria Decision Making Berdasarkan Risiko dan Nilai Bisnis."
+    ],
+    "metrics": "Tingkat kapabilitas, ketepatan prioritas, dan pencapaian sasaran layanan. Metrik teknis: Capability assessment; SLA achievement; service quality; decision consistency.",
+    "keywords": [
+      "cobit",
+      "itil",
+      "tata kelola ti",
+      "it governance",
+      "service management",
+      "manajemen layanan",
+      "sla",
+      "kapabilitas layanan",
+      "keselarasan strategi",
+      "insiden layanan"
+    ],
+    "label": "Tata kelola dan manajemen layanan teknologi informasi",
+    "subname": "IT Governance, Audit and Enterprise Cybersecurity"
+  },
+  {
+    "code": "EIT-03-02",
+    "name": "Audit dan kepatuhan sistem informasi (IT Audit and Compliance Analytics)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-03",
+    "description": "Memeriksa apakah pengendalian dan penggunaan sistem memenuhi ketentuan.",
+    "examples": [
+      "Pengembangan Continuous IT Auditing Menggunakan Process Mining untuk Deteksi Penyimpangan Pengendalian pada Sistem ERP.",
+      "Evaluasi Efektivitas Pengendalian Akses Sistem Informasi Menggunakan Risk-Based IT Audit dan Analisis Log Aktivitas.",
+      "Pengembangan Model Automated Compliance Monitoring Menggunakan Rule-Based Analytics untuk Evaluasi Kepatuhan Kebijakan Keamanan Informasi."
+    ],
+    "metrics": "Kelengkapan pemeriksaan, ketepatan temuan, dan waktu pelaksanaan audit. Metrik teknis: Control coverage; precision/recall temuan; audit effort; compliance rate.",
+    "keywords": [
+      "audit ti",
+      "audit sistem",
+      "continuous auditing",
+      "kepatuhan",
+      "compliance",
+      "pengendalian internal",
+      "log audit",
+      "security log",
+      "audit akses",
+      "penyimpangan audit"
+    ],
+    "label": "Audit dan kepatuhan sistem informasi",
+    "subname": "IT Governance, Audit and Enterprise Cybersecurity"
+  },
+  {
+    "code": "EIT-03-03",
+    "name": "Keamanan dan risiko teknologi informasi organisasi (Enterprise Cybersecurity and Risk)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-03",
+    "description": "Mengenali ancaman dan menentukan langkah pengendalian risiko organisasi.",
+    "examples": [
+      "Evaluasi Arsitektur Zero Trust untuk Meningkatkan Pengendalian Akses pada Infrastruktur Hybrid Cloud Enterprise.",
+      "Pengembangan Model Cyber Risk Prioritization Menggunakan Bayesian Network untuk Mendukung Pengambilan Keputusan Keamanan Organisasi.",
+      "Pengembangan Metode Security Event Correlation Berbasis Graph Analytics untuk Identifikasi Rangkaian Insiden pada Jaringan Enterprise."
+    ],
+    "metrics": "Ketepatan penilaian risiko, jumlah temuan, dan waktu pengenalan insiden. Metrik teknis: Access policy effectiveness; risk calibration; detection F1; detection latency.",
+    "keywords": [
+      "zero trust",
+      "cyber risk",
+      "risiko siber",
+      "keamanan enterprise",
+      "keamanan jaringan",
+      "security event",
+      "hybrid cloud security",
+      "arsitektur keamanan",
+      "serangan enterprise"
+    ],
+    "label": "Keamanan dan risiko teknologi informasi organisasi",
+    "subname": "IT Governance, Audit and Enterprise Cybersecurity"
+  },
+  {
+    "code": "EIT-03-04",
+    "name": "Tata kelola penggunaan kecerdasan buatan (AI Governance and Responsible Enterprise IT)",
+    "rumpun": "EIT",
+    "subrumpun": "EIT-03",
+    "description": "Menjaga agar penerapan kecerdasan buatan dapat dipertanggungjawabkan dan dikendalikan risikonya.",
+    "examples": [
+      "Pengembangan Model AI Governance Maturity Berbasis NIST AI Risk Management Framework untuk Perguruan Tinggi.",
+      "Evaluasi Kesiapan Implementasi Responsible AI pada Organisasi Menggunakan Model Tata Kelola, Manajemen Risiko, dan Akuntabilitas Algoritmik.",
+      "Pengembangan Model Algorithmic Audit untuk Mengevaluasi Fairness, Explainability, dan Reliability pada Sistem Keputusan Berbasis AI di Lingkungan Enterprise."
+    ],
+    "metrics": "Kejelasan indikator, hasil validasi pakar, serta ukuran keadilan dan keandalan. Metrik teknis: Validity/reliability; risk control coverage; fairness metrics; auditability; expert validation.",
+    "keywords": [
+      "ai governance",
+      "tata kelola ai",
+      "responsible ai",
+      "nist ai rmf",
+      "audit algoritma",
+      "fairness ai",
+      "risiko ai",
+      "akuntabilitas algoritmik",
+      "etika ai",
+      "governance model"
+    ],
+    "label": "Tata kelola penggunaan kecerdasan buatan",
+    "subname": "IT Governance, Audit and Enterprise Cybersecurity"
+  }
+]

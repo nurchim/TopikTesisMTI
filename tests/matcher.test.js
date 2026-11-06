@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {rankTopics,normalize} from '../public/matcher.js';
+const c=JSON.parse(readFileSync(new URL('../public/data/catalog.json',import.meta.url)));
+test('taksonomi 36 bidang dan 108 judul',()=>{assert.equal(c.length,36);assert.equal(c.flatMap(x=>x.examples).length,108);assert.equal(new Set(c.map(x=>x.code)).size,36)});
+test('NER Indonesian',()=>assert.equal(rankTopics('Named Entity Recognition untuk berita olahraga dengan BIO tagging',c)[0].code,'AI-02-02'));
+test('IoT gateway',()=>assert.equal(rankTopics('Perangkat IoT memakai MQTT dan CoAP, permasalahan packet loss dan gateway',c)[0].code,'IOT-01-03'));
+test('governance',()=>assert.equal(rankTopics('Evaluasi tata kelola TI menggunakan COBIT dan ITIL',c)[0].code,'EIT-03-01'));
+test('forecasting',()=>assert.equal(rankTopics('forecasting permintaan intermittent demand dan prediksi penjualan',c)[0].code,'AI-03-03'));
+test('no useful input',()=>assert.deepEqual(rankTopics('tolong bantu',c),[]));
+test('restrict rumpun',()=>assert.ok(rankTopics('optimasi energi sensor MQTT IoT',c,'IOT').every(x=>x.rumpun==='IOT')));
+test('normalisasi teks',()=>assert.ok(normalize('Komputasi Tepi untuk IoT').includes('edge computing')));
